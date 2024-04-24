@@ -1,0 +1,53 @@
+/* Styles for labels */
+id_resbox {
+    -fx-padding: 10px; /* Add padding around the box */
+    -fx-background-color: #E5E5E5; /* Light gray background */
+    -fx-border-color: #999999; /* Dark gray border */
+    -fx-border-width: 2px; /* Increase border width for emphasis */
+    -fx-border-radius: 5px; /* Rounded corners */
+}
+
+.label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333; /* Text color */
+}
+
+/* Styles for text fields */
+.text-field {
+    -fx-font-size: 14px;
+    -fx-pref-width: 200px; /* Adjust width as needed */
+    -fx-background-color: #f2f2f2; /* Light gray background */
+    -fx-border-color: #ccc; /* Light gray border */
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px; /* Rounded corners */
+    -fx-padding: 5px; /* Add some padding */
+}
+
+/* Styles for date pickers */
+.date-picker {
+    -fx-font-size: 14px;
+    -fx-pref-width: 200px; /* Adjust width as needed */
+    -fx-background-color: #f2f2f2; /* Light gray background */
+    -fx-border-color: #ccc; /* Light gray border */
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px; /* Rounded corners */
+    -fx-padding: 5px; /* Add some padding */
+}
+
+/* Styles for buttons */
+.button {
+    -fx-font-size: 14px;
+    -fx-pref-width: 100px; /* Adjust width as needed */
+    -fx-background-color: #007bff; /* Button background color */
+    -fx-text-fill: #ffffff; /* Button text color */
+    -fx-background-radius: 5px; /* Rounded corners */
+    -fx-padding: 8px 16px; /* Add padding */
+    -fx-alignment: center; /* Center align the button */
+
+}
+
+.button:hover {
+    -fx-background-color: #0056b3; /* Hover background color */
+    -fx-cursor: hand; /* Show hand cursor on hover */
+}

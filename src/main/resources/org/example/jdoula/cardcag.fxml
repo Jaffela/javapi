@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<HBox fx:id="id_resbox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="263.0" prefWidth="310.0" stylesheets="@../../../add.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.jdoula.cardcag">
+   <children>
+      <VBox prefHeight="193.0" prefWidth="360.0" spacing="1.0">
+         <children>
+            <ImageView fitHeight="100.0" fitWidth="102.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/Animal%20shelter-pana.png" />
+               </image>
+               <VBox.margin>
+                  <Insets left="110.0" />
+               </VBox.margin>
+            </ImageView>
+            <Label fx:id="id_typ" alignment="CENTER" prefHeight="32.0" prefWidth="350.0" text="type" />
+            <Label fx:id="id_emp" alignment="CENTER" prefHeight="32.0" prefWidth="350.0" text="emplacement" />
+            <Label fx:id="id_dis" alignment="CENTER" prefHeight="30.0" prefWidth="350.0" text="disponibilite" />
+            <HBox alignment="CENTER" depthTest="ENABLE" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="38.0" prefWidth="334.0" spacing="65.0">
+               <children>
+                  <Button fx:id="id_update" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#redirect" prefHeight="36.0" prefWidth="334.0" text="update" />
+                  <Button fx:id="id_del" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#suppres" prefHeight="36.0" prefWidth="337.0" text="delete" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</HBox>
